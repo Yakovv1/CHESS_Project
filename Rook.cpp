@@ -1,8 +1,14 @@
 #include "Rook.h"
 
 
-
-Rook::Rook()
+/*
+The c'tor of the rook
+Input:
+	none
+Output:
+	none
+*/
+Rook::Rook():Piece()
 {
 }
 
