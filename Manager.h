@@ -17,8 +17,11 @@ class Piece;
 class Manager
 {
 private:
-	
+	Player& whiteP;
+	Player& blackP;
+
 public:
+	
 	virtual bool isChess();
 	Manager();
 	~Manager();
