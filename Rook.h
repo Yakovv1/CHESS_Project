@@ -1,12 +1,7 @@
 #pragma once
-#include "piece.h"
-
-
-class Rook:public Piece
+class Rook
 {
-
 public:
-	virtual bool isvalidMove();
 	Rook();
 	~Rook();
 };

@@ -13,20 +13,15 @@
 #define INVALID_MOVE_SORCE_AND_DEST_SAME 7
 #define VALID_MOVE_CHESS 8
 
-using namespace std;
-
 class Piece;
 class Manager
 {
 private:
 	Player& whiteP;
 	Player& blackP;
-	bool currentPlayer;
-	string toSend;
+
 public:
-	bool isValidMove();
-	void sendToPipe();
-	void playGame();
+	
 	virtual bool isChess();
 	Manager();
 	~Manager();

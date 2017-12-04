@@ -2,18 +2,13 @@
 #include <iostream>
 #include "piece.h"
 #include <string>
-#include "Manager.h"
-
-#define ROW 8
-#define CAL 8
 
 using namespace std;
 class Piece;
-class Board : public Manager
-{
+class Board {
 
 private:
-	Piece brd[CAL][ROW];
+	Piece brd[8][8];
 
 public:
 	bool tryMove();

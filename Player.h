@@ -10,7 +10,7 @@ private://Avishag, we will do it togher
 	Piece& king;
 	bool movementDire; //for UP is TRUE for down is False
 public:
-	Player();
+	Player(bool color, Piece& king, bool movemntDire);
 	~Player();
 };
 
