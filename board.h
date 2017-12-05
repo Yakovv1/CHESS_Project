@@ -2,15 +2,21 @@
 #include <iostream>
 #include "piece.h"
 #include <string>
+#include "Manager.h"
 
-using namespace std;
+#define ROW 8
+#define COL 8
+
+using namespace std;// hyish
 class Piece;
-class Board {
+class Board : public Manager
+{
 
 private:
-	Piece brd[8][8];
-
+	Piece _brd[COL][ROW];
 public:
+	Board();
+	~Board();
 	bool tryMove();
 	bool move();
 	bool undoMove();

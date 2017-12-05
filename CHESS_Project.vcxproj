@@ -117,7 +117,6 @@
     <ClInclude Include="Knight.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="piece.h" />
-    <ClInclude Include="Pipe.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pwan.h" />
     <ClInclude Include="Queen.h" />
@@ -127,9 +126,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="board.cpp" />
     <ClCompile Include="King.cpp" />
     <ClCompile Include="Knight.cpp" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Piece.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Pwan.cpp" />
     <ClCompile Include="Queen.cpp" />
