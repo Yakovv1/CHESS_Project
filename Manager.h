@@ -19,7 +19,7 @@ class Manager
 private:
 	Player& whiteP;
 	Player& blackP;
-
+	//mnnn
 public:
 	
 	virtual bool isChess();
