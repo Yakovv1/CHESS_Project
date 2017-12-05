@@ -6,11 +6,11 @@
 class Player: public Manager
 {
 private://Avishag, we will do it togher
-	bool color;// Black is False and White is True
-	Piece& king;
-	bool movementDire; //for UP is TRUE for down is False
+	bool _color;// Black is False and White is True
+	Piece& _king;
+	bool _movementDire; //for UP is TRUE for down is False
 public:
-	Player(bool color);
+	Player();
 	~Player();
 };
 

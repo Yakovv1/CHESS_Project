@@ -5,17 +5,21 @@
 #include "Manager.h"
 
 #define ROW 8
-#define CAL 8
+#define COL 8
 
-using namespace std;
+using namespace std;// hyish
 class Piece;
 class Board : public Manager
 {
 
 private:
-	Piece brd[CAL][ROW];
-
+	Piece _brd[COL][ROW];
+	bool _yakov;
+	bool _avi;
+	//dddd
 public:
+	Board();
+	~Board();
 	bool tryMove();
 	bool move();
 	bool undoMove();

@@ -7,12 +7,13 @@ class Player;
 class Piece: public Board
 {
 private:
-	int row;
-	int cal;
-	Player& currPlayer;
-	char role;
+	int _row;
+	int _col;
+	Player& _currPlayer;
+	char _role;
 public:
-	Piece(int row, int cal, Player& currPlayer, char Role);
+	Piece(int row, int col, Player& currPlayer, char Role);
 	~Piece();
+	void setRole(char _newRole);
 	virtual bool isValidMove();
 };

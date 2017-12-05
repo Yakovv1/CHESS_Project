@@ -19,10 +19,10 @@ class Piece;
 class Manager
 {
 private:
-	Player& whiteP;
-	Player& blackP;
-	bool currentPlayer;
-	string toSend;
+	Player& _whiteP;
+	Player& _blackP;
+	bool _currentPlayer;
+	string _toSend;
 public:
 	bool isValidMove();
 	void sendToPipe();
